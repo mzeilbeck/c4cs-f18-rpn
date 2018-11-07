@@ -25,8 +25,7 @@ def calculate(arg):
             func = op[token]
             result = func(val1, val2)
             stack.append(result)
-            if len(stack) <= 1:
-                return stack[-1]
+    return stack[-1]
 
 def main():
     while True:
