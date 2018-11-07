@@ -1,4 +1,4 @@
-language: python # comment ca va
+language: python
 python:
     - "3.5"
 script:
